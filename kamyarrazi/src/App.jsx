@@ -1,13 +1,13 @@
-import {Button} from './button';
+import { Button1, Button2 } from './button';
+import Input from './input';
 
 function App() {
 
   return (
-    <Button>
-  </Button> 
- 
-   
-
+    <>
+      <Button1></Button1>
+      <Button2></Button2>
+    </>
   )
        
 }
