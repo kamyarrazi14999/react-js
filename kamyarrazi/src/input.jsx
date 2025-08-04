@@ -1,11 +1,11 @@
-const Input=() => {
+const Input=() => { 
 
 
     return (
         <>
-            <Input> </Input>
+            <input></input>
         </>
     )
-}
+};
 
 export default Input;
