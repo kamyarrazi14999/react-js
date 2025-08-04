@@ -1,12 +1,13 @@
-
+import {Button} from './button';
 
 function App() {
 
   return (
-<>
+    <Button>
+  </Button> 
+ 
+   
 
-<button>منو فشار بد</button>   
-</>
   )
        
 }

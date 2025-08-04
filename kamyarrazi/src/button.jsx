@@ -1,12 +1,11 @@
-const Button = () => {
-
-
+export const Button = () => {
     return (
-        <div>
-   
-        </div>
-       
+        <button>
+منو فشار بده
+        </button>
     );
+    
+
+
 };
 
-export default Button;
