@@ -1,5 +1,5 @@
-import { Button1, Button2 } from './compoments/button';
-import Input from './compoments/input';
+import { Button1, Button2 } from './compoments/button/button';
+import Input from './compoments/form/input';
 
 function App(){
 
