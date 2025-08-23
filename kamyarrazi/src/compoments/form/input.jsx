@@ -1,10 +1,11 @@
+import style   from './input.module.css';
 const Input=() => { 
 
 
     return (
         <>
             <input></input>
-            <button className="btn">دکمه مورد نظر</button>
+            <button className={style.btn}>دکمه مورد نظر</button>
         </>
     )
 };
