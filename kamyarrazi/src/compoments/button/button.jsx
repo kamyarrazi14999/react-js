@@ -1,7 +1,7 @@
-import style from "./Button.module.css"
-export const Button1 = () => {
+import './button.css';
+export const Button = () => {
     return (
-        <button className = {style.css} style={{width:'200px', height:'50px'}}>
+        <button className = ''>
 منو فشار بده
         </button>
     );
@@ -12,14 +12,9 @@ export const Button1 = () => {
 
 
 
-export const Button2 = () => {
-    return (
-        <button className = {style.css}>
-زندگی زیبا هست
-        </button>
-    );
+
     
 
 
-};
+
 
