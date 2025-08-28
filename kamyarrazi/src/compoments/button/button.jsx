@@ -1,9 +1,9 @@
-import './button.css';
-export const Button = () => {
+import './button.css'
+export const Button = ({text}) => {
     return (
-        <button className = ''>
-منو فشار بده
-        </button>
+        <>
+            <button className='btn'>{text} </button>
+        </>
     );
     
 
