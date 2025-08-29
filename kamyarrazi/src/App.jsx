@@ -5,7 +5,8 @@ function App(){
 
   return (
     <>
-      <Button text={"ثبت نام" } />
+      <Button
+      />
       </>
     
   );
