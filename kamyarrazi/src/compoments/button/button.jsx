@@ -1,8 +1,8 @@
 import './button.css'
-export const Button = ({text='مقدار پیش فرض', bg ,myclass}) => {
+export const Button = (props) => {
     return (
         <>
-            <button className={`btn ${ myclass}`} style={{backgroundColor:bg}}>{text} </button>
+            <button className={`btn ${props. myclass}`} style={{backgroundColor:props.bg}}>{props.text} </button>
         </>
     );
     
