@@ -1,7 +1,11 @@
-export const Input=() => {
+export const Input=({type , label_text }) => {
     return (
-        <>
-            <input/>
-        </>
+        <label>
+            <span>  {label_text}</span>
+            <input type={type} />
+            
+            
+            
+        </label>
     )
 };
