@@ -4,12 +4,10 @@
   padding: 2rem;
   text-align: center;
 }
-.parent{
+
+.parent {
   display: flex;
- flex-direction: column;
+  flex-direction: column;
   gap: 30px;
-  align-items: center;
 }
-
-
 
