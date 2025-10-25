@@ -1,7 +1,8 @@
-export const Button=({btn_text})=>{
+export const Button=({btn_text  })=>{
     return(
         <>
-        <button>{btn_text}</button>
+            <button>{btn_text}</button>
+            
         </>
     )
 }

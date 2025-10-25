@@ -3,6 +3,8 @@ export const Input = ({ type, label_text }) => {
     <label>
       <span>{label_text}</span>
       <input type={type} />
+      
+
     </label>
   );
 };
