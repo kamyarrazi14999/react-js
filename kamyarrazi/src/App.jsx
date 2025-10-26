@@ -1,21 +1,26 @@
+import { useState } from "react";
 import "./App.css";
-import { Form } from "./components/form/Form";
-import { Input } from "./components/form/Input";
+
 
 function App() {
+  const [count, setCount] = useState(0);
+  const [textinput, setTextInput] = useState('');
+  const hendleClick = () => {
+    setCount(count + 1);
+    
+  }
+
+  const hendelchang = (event)=> {
+    setTextInput(event.target.value);
+  }
   return (
     <>
-      <Form title="فرم ورود" btn_text={"ورود به حساب"}>
-        <Input type={"email"} label_text={"ایمیل وارد کنید"} />
-        <Input type={"password"} label_text={"رمز وارد کنید"} />
-      </Form>
-
-      <Form title="فرم ثبت نام" btn_text={"ثبت نام"}>
-        <Input type={"email"} label_text={"ایمیل وارد کنید"} />
-        <Input type={"password"} label_text={"رمز وارد کنید"} />
-        <Input type={"text"} label_text={'نام و نام خانوادگی'} />
-        <p> برای ثبت نام داشتن حداقل 18 سال الزامیست</p>
-      </Form>
+      <h2>{count}</h2>
+      <h5> {textinput} </h5>
+      <div className="parent">
+        <button onClick={hendleClick}> کلیک کنید </button> 
+        <input onChange={hendelchang}  placeholder="نام خود را وارد کنید" type="text" />
+        </div>
     </>
   );
 }
