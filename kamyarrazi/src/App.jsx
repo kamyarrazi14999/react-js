@@ -3,7 +3,7 @@ import "./App.css";
 
 
 function App() {
-  const [islogin, setIslogin] = useState(false);
+  const [islogin, setIsLogin] = useState(false);
 
     
   
