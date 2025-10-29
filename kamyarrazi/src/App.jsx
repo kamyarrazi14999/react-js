@@ -3,11 +3,12 @@ import "./App.css";
 
 
 function App() {
-  const [islogin] = useState(false);
+  const [islogin, setislogin] = useState(false);
 
     
   
   if (islogin == true) {
+    setislogin((prev) => !prev);
     return (
       <>
         <h1>کاربر لاگین هست</h1>
