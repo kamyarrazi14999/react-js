@@ -5,13 +5,15 @@ import "./App.css";
 function App() {
   const [islogin, setislogin] = useState(false);
 
-    
+    const handelstate=()=>{
+      setislogin(prev => !prev)
+    }
   
-  if (islogin == true) {
-    setislogin((prev) => !prev);
+  if (islogin==true) {
+  
     return (
       <>
-        <h1>کاربر لاگین هست</h1>
+        <h1 onClick={handelstate}>کاربر لاگین هست</h1>
         
     
       </>
@@ -19,7 +21,7 @@ function App() {
    } else {
       return (
         <>
-         <h1>کاربر لاگین نیست</h1>
+         <h1 onClick={handelstate}>کاربر لاگین نیست</h1>
         </>
       )
     }
